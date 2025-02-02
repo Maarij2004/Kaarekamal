@@ -1,0 +1,196 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #3f4c66;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+nav {
+  background-color: #202329;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(207, 207, 207);
+}
+
+nav .logo {
+  color: goldenrod;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: 20px;
+  
+}
+
+footer {
+  margin-top: auto;
+  padding: 10px;
+  background-color: #202329;
+  color: white;
+  width: 100%;
+}
+
+.home-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.home-image {
+  width: 100%;
+  height: auto;
+}
+
+.home-text {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  color: white;
+  text-align: left;
+}
+
+.home-text h1 {
+  font-size: 4em;
+  margin: 0;
+}
+
+.home-text h2 {
+  font-size: 3.5em;
+  color: goldenrod;
+  margin: 0;
+}
+
+.home-facts {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  background-color: transparent;
+  padding: 20px;
+}
+
+.fact {
+  text-align: center;
+}
+
+.fact-number {
+  display: block;
+  font-size: 3em;
+  color: goldenrod;
+  font-weight: bold;
+}
+
+.fact-text {
+  display: block;
+  font-size: 2em;
+  color: black;
+  font-weight: bold;
+}
+
+.domain-section {
+  margin-top: 40px;
+  padding: 20px;
+  border: 2px solid goldenrod;
+  background-color: transparent;
+}
+
+.domain-heading {
+  text-align: center;
+  font-size: 2.5em;
+  color: goldenrod;
+  margin-bottom: 20px;
+}
+
+.domain-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.domain-item {
+  text-align: center;
+  margin: 10px;
+  flex: 1 1 calc(100% - 40px);
+  max-width: calc(100% - 40px);
+  padding: 20px;
+  border: 2px solid goldenrod;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+@media (min-width: 600px) {
+  .domain-item {
+    flex: 1 1 calc(50% - 40px);
+    max-width: calc(50% - 40px);
+  }
+}
+
+@media (min-width: 900px) {
+  .domain-item {
+    flex: 1 1 calc(33.333% - 40px);
+    max-width: calc(33.333% - 40px);
+  }
+}
+
+.domain-image {
+  width: 100%;
+  height: auto;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.domain-text {
+  font-size: 2em;
+  color: black;
+  margin-top: 10px;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+}
