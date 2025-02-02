@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Kaarekamal/static/css/main.f88b1e27.css",
+    "main.css": "/Kaarekamal/static/css/main.7455884e.css",
     "main.js": "/Kaarekamal/static/js/main.0f6b48fa.js",
     "static/js/453.ad6eb26e.chunk.js": "/Kaarekamal/static/js/453.ad6eb26e.chunk.js",
     "static/media/Home.svg": "/Kaarekamal/static/media/Home.9851bf2db877cbde06a8c4cc600c3255.svg",
@@ -11,12 +11,12 @@
     "static/media/med.jpeg": "/Kaarekamal/static/media/med.d62916b2aebcd24f7b48.jpeg",
     "static/media/school.jpeg": "/Kaarekamal/static/media/school.cdaf849fbc937ba2b250.jpeg",
     "index.html": "/Kaarekamal/index.html",
-    "main.f88b1e27.css.map": "/Kaarekamal/static/css/main.f88b1e27.css.map",
+    "main.7455884e.css.map": "/Kaarekamal/static/css/main.7455884e.css.map",
     "main.0f6b48fa.js.map": "/Kaarekamal/static/js/main.0f6b48fa.js.map",
     "453.ad6eb26e.chunk.js.map": "/Kaarekamal/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f88b1e27.css",
+    "static/css/main.7455884e.css",
     "static/js/main.0f6b48fa.js"
   ]
 }
